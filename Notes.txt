@@ -1,0 +1,24 @@
+Sample api Call
+----------------
+Post ->http://localhost:1997/process_data
+{
+    "mode": "Title",
+    "numberOfResults": 1000,
+    "givenText": "Cannot do data entry",
+    "searchFilters": {
+        "workItemTypeFilter": ["Issue"],
+        "statusFilter": ["Closed"],
+        "projectCodeFilter": [],
+        "testByFilter": ["Jayasanka Wijegunawardana"],
+        "assignedToFilter": ["Naveen Ahangama"],
+        "sourceCategoryFilter": [],
+        "createdDateGreaterThanFilter": "2023-01-12",
+        "createdDateLesserThanFilter": "2023-12-23"
+    }
+}
+
+----------------------- RUN -------------
+
+cd C:\BugFinder-AI\BugFinderAI
+C:\BugFinder-AI\BugFinderAI\venv\Scripts\activate
+python -m uvicorn main:app --host 0.0.0.0 --port 8000

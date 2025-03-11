@@ -1,0 +1,183 @@
+# =========================
+# GENERAL PYTHON IGNORE
+# =========================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.dll
+*.dylib
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local Python configuration files
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================
+# OS-SPECIFIC FILES
+# =========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# IDE AND TEXT EDITOR FILES
+# =========================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# =========================
+# LOGS, TEMP, AND BACKUP FILES
+# =========================
+
+logs/
+*.log
+debug.log
+error.log
+nohup.out
+*.bak
+*.tmp
+*.cache
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# DEPENDENCIES AND BUILD FILES
+# =========================
+
+# Python dependencies
+*.egg
+*.egg-info/
+dist/
+build/
+site-packages/
+
+# Compiled Cython files
+*.c
+*.cpp
+*.pyx
+
+# =========================
+# NLP, AI MODELS, AND DATA FILES
+# =========================
+
+# Pretrained models
+models/
+*.h5
+*.pt
+*.ckpt
+*.tflite
+*.onnx
+*.pkl
+
+# Large datasets
+data/
+*.csv
+*.tsv
+*.json
+*.sqlite
+*.parquet
+*.db
+
+# Vector search / Embeddings
+vectors/
+*.bin
+*.npy
+*.hdf5
+
+# =========================
+# DOCKER & DEPLOYMENT FILES
+# =========================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+*.dockerfile
+*.container
+
+# Kubernetes
+*.yaml
+k8s/
+
+# Heroku
+*.slugignore
+*.buildpacks
+.heroku/
+.procfile
+
+# =========================
+# MICROSOFT TFS & VERSION CONTROL
+# =========================
+
+# Ignore TFS temporary files
+$tf/
+*.tfs.lock
+*.tfignore
+*.tfstate
+
+# Git LFS (if used)
+.gitattributes
+.git/lfs/
+
+# =========================
+# MISC FILES
+# =========================
+
+# Ignore any custom scripts or executables
+scripts/*.sh
+*.exe
+*.bat
+*.cmd
+
+# Ignore generated documentation
+docs/build/
+*.rst
+*.md~
+
+# Ignore any personal configuration files
+*.config
+*.settings
+.local/
+.cache/
+*.ini
+
+# =========================
+# END OF FILE
+# =========================
