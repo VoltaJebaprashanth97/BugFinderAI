@@ -32,14 +32,14 @@ Created by **Volta Jebaprashanth** for use at Bileeta. Feel free to reach out at
 ```
 📂 BugFinderAI/
 │── 📂 AI/                        # AI-based similarity search models
-│── 📂 Filter/                    # Core execution logic
-│── 📂 Initiator/                 # Data filtering logic
-│── 📂 PreProcessing/             # Data initialization & preprocessing
-│── 📂 Runner/                    # Documentation files
-│── 📂 SendFilters/                  # Sample requests and usage scripts
-│── 📂 SystemFiles/                  # Sample requests and usage scripts
-│── 📂 Utils/                  # Sample requests and usage scripts
-│── 📜 Config.py                    # FastAPI entry point
+│── 📂 Filter/                    # filteration logic
+│── 📂 Initiator/                 # core initialization logic
+│── 📂 PreProcessing/             # preprocess the dataset
+│── 📂 Runner/                    # initialization runner
+│── 📂 SendFilters/               # filteration with requests
+│── 📂 SystemFiles/               # the CSV with bulk dataset should be kept here
+│── 📂 Utils/                     # utilities
+│── 📜 Config.py                  # confgurations
 │── 📜 main.py                    # FastAPI entry point
 │── 📜 requirements.txt           # Python dependencies
 │── 📜 README.md                  # Project documentation
