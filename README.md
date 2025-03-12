@@ -6,6 +6,8 @@ It leverages **Natural Language Processing (NLP)** to enhance bug retrieval and 
 
 Created by **Volta Jebaprashanth** for use at Bileeta. Feel free to reach out at **voltajeba@gmail.com** or **+94774637185**.
 
+The front end implementation is here: [BugFinder AI Frontend](https://github.com/VoltaJebaprashanth97/BugFinder-UI).
+
 
 ---
 
