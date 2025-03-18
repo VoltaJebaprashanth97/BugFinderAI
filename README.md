@@ -8,6 +8,7 @@ Created by **Volta Jebaprashanth** for use at Bileeta. Feel free to reach out at
 
 The front end implementation is here: [BugFinder AI Frontend](https://github.com/VoltaJebaprashanth97/BugFinder-UI).
 
+![Alt text](https://raw.githubusercontent.com/VoltaJebaprashanth97/BugFinder-UI/refs/heads/main/assets/Screenshot1.png)
 
 ---
 
